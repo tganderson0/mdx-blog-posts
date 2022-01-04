@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import {renderToStaticMarkup} from 'react-dom/server.js';
+import React from 'react';
+import Content from './example.mdx';
 
 function App() {
   return (
     <div className="App">
+      {renderToStaticMarkup(React.createElement(Content))}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
