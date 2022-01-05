@@ -8,4 +8,4 @@ Make sure to run 'yarn' after cloning
 
 ## Current Posts
 
-[AWS Blog](./src/aws-blog/), a post about various services AWS provides.
+[AWS Blog](./src/aws-blog/), a post about various services AWS provides. The file [example.mdx](./src/aws-blog/example.mdx) is the main file for previewing. It uses all the components in that same folder.
