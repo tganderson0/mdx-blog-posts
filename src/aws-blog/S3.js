@@ -77,12 +77,9 @@ export default function S3(){
 
       <h2>How to use S3?</h2>
       <Typography>
-        AWS provides many SDKs for using S3, supporting many languages. For the sake of brevity, we will only go through the Node.js SDK, but you can find the rest of the SDKs here: <br />
-        <Button variant="contained" href="https://aws.amazon.com/s3/getting-started/">AWS Website</Button>
-      </Typography>
-
-      <h3>Node.js</h3>
-      
+        AWS provides many SDKs for using S3, supporting many languages. You can find links to how to use all the SDKs here: <br />
+        <Button variant="contained" href="https://aws.amazon.com/s3/getting-started/">AWS Website</Button> <br />
+      </Typography>      
     </>
   );
 };

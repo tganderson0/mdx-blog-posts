@@ -51,7 +51,13 @@ export default function DynamoDB() {
       <Button variant="contained" href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AccessingDynamoDB.html">AWS Website</Button>
 
       <h3>Using the API</h3>
-      
+      <Typography>
+        AWS once again provides many SDKs to use with their service, allowing you to utilize it in the language you are most comfortable with.
+        A link to the page with all the SDKs is linked below. Just click on the one you want to use, and it will teach you how to use it!
+      </Typography>
+      <br />
+      <Button href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Using.API.html" variant="contained">AWS Website</Button>
+
     </>
   )
 }

@@ -1,4 +1,4 @@
-import { Typography } from "@material-ui/core";
+import { Typography, Button } from "@material-ui/core";
 import React from "react";
 
 export default function APIgateway() {
@@ -19,9 +19,13 @@ export default function APIgateway() {
 
       <h2>How to use it?</h2>
       <Typography>
-        With AWS API Gateway, you are able to create 3 kinds of APIs. We will go over each, and an example of how to use them. The API Gateway requires you to create at least 1 AWS Lambda, so you should
-        go through that tutorial if you have not already before continuing.
+        With AWS API Gateway, you are able to create 3 kinds of APIs. The API Gateway requires you to create at least 1 AWS Lambda, so you should
+        go through that tutorial if you have not already before continuing. After that, a tutorial can be found here:
       </Typography>
+
+      <br />
+      <Button variant="contained" href="https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html">AWS Website</Button>
+      <br />
     </>
   )
 }
